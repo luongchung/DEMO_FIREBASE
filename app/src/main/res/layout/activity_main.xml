@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSXSon"
+        android:textSize="12dp"
+        android:layout_margin="20dp"
+        android:background="#fe224658"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="HOÁ CHẤT SỬ DỤNG TRONG SẢN XUẤT SƠN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnDetMay"
+        android:textSize="12dp"
+        android:layout_margin="20dp"
+        android:background="#fe224658"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="HOÁ CHẤT SỬ DỤNG TRONG CÔNG NGHỆ DỆT MAY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnMucIn"
+        android:textSize="12dp"
+        android:layout_margin="20dp"
+        android:background="#fe224658"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="HOÁ CHẤT SỬ DỤNG TRONG CÔNG NGHỆ MỰC IN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnTruSau"
+        android:layout_margin="20dp"
+        android:textSize="12dp"
+        android:background="#fe224658"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:text="HOÁ CHẤT SỬ DỤNG TRONG SẢN XUẤT THUỐC TRỪ SÂU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

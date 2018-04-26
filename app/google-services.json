@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "286881646469",
+    "firebase_url": "https://hoahoc-28f24.firebaseio.com",
+    "project_id": "hoahoc-28f24",
+    "storage_bucket": "hoahoc-28f24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286881646469:android:929167e06280762a",
+        "android_client_info": {
+          "package_name": "com.app.luongchung.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286881646469-0nqj5o13l8m43f9o9auqd76r0lko2rta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vJfX_9xs-1pYPoNe_zeelYn6e6zA7h8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

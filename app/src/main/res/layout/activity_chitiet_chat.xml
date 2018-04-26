@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ChitietChat">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtTenChat"
+                android:textColor="@color/colorPrimary"
+                android:text="ACETONE"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtCTHH"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:text="CTHH: H2SO4"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtMaSoCAS"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Mã số: 67 – 64 – 1  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtMasoUN"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Mã UN: UN1090"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtTinhNguyHiemChay"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Tính nguy hiểm cháy: Cháy mãnh liệt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtNhietDotuBocChay"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Nhiệt độ tự bắt cháy: 465 oC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtNhietDotuChopChay"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="Nhiệt độ chớp cháy: -20 oC (cốc kín), -9 oC (cốc hở)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Nhãn NFPA: "
+                            android:textStyle="bold"
+                            android:textColor="#111111"
+                            android:paddingTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <Button
+                            android:id="@+id/btnNFPA"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thêm"
+                            android:textColor="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rc_nfpa"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="Nhãn GHS: "
+                            android:textStyle="bold"
+                            android:textColor="#111111"
+                            android:paddingTop="10dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/btnGHS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thêm"
+                            android:textColor="@color/colorPrimary" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/rc_ghs"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentTop="true" />
+                </LinearLayout>
+        <TextView
+
+            android:textStyle="bold"
+            android:textColor="#111111"
+            android:paddingTop="10dp"
+            android:text="Chiến thuật chữa cháy :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtChienThuatChuaChay"
+            android:textStyle="italic"
+            android:textColor="#111111"
+            android:paddingTop="0dp"
+            android:text="Đối với đám cháy nhỏ, có thể sử dụng các hóa chất khô không cháy   hoặc cát để dập tắt đám cháy. Với đám cháy lớn, sử dụng bọt tạo bằng dung môi không phân cực hoặc ít phân cực, làm mát đám cháy bằng nước ở dạng sương mù sau đó sử dụng tia nước đặc. Chú ý tới hiện tượng tạo áp suất dẫn đến nổ và cháy lớn hơn. Khi sử dụng tia nước đặc, phải quay gom, tránh để nước sau chữa cháy thải ra các nguồn nước khác gây ô nhiễm. Trong công tác CNCH, phải chú ý đưa người bị nạn nhanh chóng thoát khỏi vùng nguy hiểm, phải trang bị mặt nạ phòng độc cho các chiến sĩ tham gia CNCH và cho các nạn nhân."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
